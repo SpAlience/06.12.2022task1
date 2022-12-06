@@ -1,0 +1,143 @@
+*{
+    margin: 0;
+    padding:5px;
+    box-sizing: border-box;
+}
+
+body{
+    position: relative;
+    background-color: rgba(238, 234, 228, 0.823);
+    font-family: 'Roboto', sans-serif;
+}
+.box{
+    position: absolute;
+    width: 600px;
+    height: 400px;
+    border: 1px solid rgba(237, 216, 216, 0.966);
+    border-radius: 10px;
+    box-shadow: 2px 4px 11px 0px rgba(0,0,0,0.75);
+    top: 65px;
+    left: 120px;
+    background-color: white;
+    display: flex;
+    justify-content: space-around;
+}
+.left-part{
+    border: 1px dashed rgb(255, 255, 255);
+    width: 330px;
+    height: 308px;
+    border-bottom-left-radius: 10px;
+    border-top-left-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    left: 50px;
+    bottom: 50px;
+}
+
+.checkbox{
+position: absolute;
+font-size: 10px;
+width: 250px;
+left: 55px;
+top: 270px;
+
+}
+
+.checkbox a{
+    color: black;
+}
+
+.left-part h2{
+    margin-bottom: 20px;
+    margin-right: 80px;
+    font-size: 25px;
+    
+}
+.left-part input{
+    margin: 5px;
+    border: none;
+    border-bottom: 1px solid gray;
+}
+.left-part button{
+    width: 100px;
+    height: 35px;
+    color: white;
+    background-color: blue;
+    border: none;
+    border-radius: 3px;
+    position: absolute;
+    bottom: 44px;
+    left: 63px;
+}
+
+
+.name input{
+    width: 200px;
+    padding-left: 25px;
+}
+
+.name i{
+    position: absolute;
+    font-size: 13px;
+    top:101px;
+    left: 60px;
+}
+
+.email input{
+    width: 200px;
+    padding-left: 25px;
+}
+
+.email i{
+    position: absolute;
+    font-size: 13px;
+    top:148px;
+    left: 59px;
+}
+
+.password input{
+    width: 200px;
+    padding-left: 25px;
+}
+
+.password i{
+    position: absolute;
+    font-size: 13px;
+    bottom:181px;
+    left: 60px;
+}
+
+.re-password input{
+    width: 200px;
+    padding-left: 25px;
+}
+
+.re-password i{
+    position: absolute;
+    font-size: 13px;
+    bottom: 135px;
+    left: 60px;
+    color:rgba(58, 45, 45, 0.288);
+}
+.right-part{
+    width: 307px;
+    height: 100%;
+    border-bottom-right-radius: 10px;
+    border-top-right-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.right-part img{
+    width: 262px;
+    height: 240px;
+}
+
+.member a{
+    color: black;
+    font-size: 12px;
+}
